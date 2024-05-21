@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 body {
-    font-family: Arial,  sans-serif; /* La famiglia del font */
+    font-family: 'Inter', Arial, sans-serif; /* La famiglia del font cambiata in Inter */
     font-size: 11px; /* La dimensione del font principale nei tag <p></p> */
-    background-color: #f0f0f0; /* Il colore dello sfondo della pagina web */
+    background-color: #fdf4e3; /* Il colore dello sfondo della pagina web */
     color: #333333; /* Il colore del testo */ 
 }
+
+/* Stile per h1 con bordo colorato alle lettere */
 h1 {
     color: #00a800; /* Il colore dell'intestazione */
     font-size: 24px; /* La dimensione del font dell'intestazione */
-    font-family: Georgia, serif; /* La famiglia del font usata nell'intestazione */
+    font-family: 'Inter', Georgia, serif; /* La famiglia del font usata nell'intestazione cambiata in Inter */
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,  
+        -1px  1px 0 #000,  
+         1px  1px 0 #000;  /* Bordo colorato alle lettere */
+    border: 2px solid #00a800; /* Bordo dell'intestazione */
+    padding: 10px; /* Spaziatura interna del bordo */
+    background-color: #f0f0f0; /* Colore di sfondo dell'intestazione */
+    border-radius: 5px; /* Bordo arrotondato */
 }
